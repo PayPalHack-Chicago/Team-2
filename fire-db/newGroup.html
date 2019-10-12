@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/signin.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form action="profile.html" style="border:1px solid #ccc">
+      <div class="container">
+        <p>Please fill in this form to create a new group.</p>
+
+        <label for="gname"><b>Group Name</b></label>
+        <input
+          type="text"
+          placeholder="Group Name"
+          name="gname"
+          id="gname"
+          required
+        />
+
+        <label for="people"><b>Invite People</b></label>
+        <input
+          type="text"
+          placeholder="Enter users email"
+          name="people"
+          id="people"
+          required
+        />
+
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">
+            <a href="profile.html">Create Group</a>
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

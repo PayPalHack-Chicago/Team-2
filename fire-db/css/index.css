@@ -14,8 +14,6 @@ body {
   color: #ccc;
   font-family: "Lato", serif;
   background-color: #000;
-
-  /*fix skinny fonts on ios*/
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
@@ -33,4 +31,8 @@ button {
   text-align: center;
   font-size: 70px;
   justify-content: center;
+}
+button:hover {
+  opacity: 1;
+  right: 0;
 }
