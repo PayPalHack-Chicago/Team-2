@@ -11,6 +11,13 @@ firebase.initializeApp(config);
 document.getElementById("sign").onclick= function (){
     const email=document.getElementById("email").value;
     const password=document.getElementById("pswd").value;
+    const fullname=document.getElementById("fname").value;
+    const username=document.getElementById("username").value;
+    const dob=document.getElementById("DOB").value;
+    const address=document.getElementById("address").value;
+    const country=document.getElementById("country").value;
+    const State=document.getElementById("State").value;
+    const postal=document.getElementById("postal_code").value;
     const auth = firebase.auth();
     const promise = auth.createUserWithEmailAndPassword(email,password);
     promise.catch(e=> console.log(e.message));
