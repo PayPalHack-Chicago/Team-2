@@ -3,26 +3,42 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/signin.css" rel="stylesheet" />
+    <script defer src="/__/firebase/7.2.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/firebase/7.2.0/firebase-auth.js"></script>
+    <script defer src="/firebase/7.2.0/firebase-database.js"></script>
+    <script defer src="/firebase/7.2.0/firebase-messaging.js"></script>
+    <script defer src="/firebase/7.2.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/firebase/init.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
-    <form action="/action_page.php" method="post">
+    <form>
       <div class="imgcontainer">
         <img src="images/AJO.JPG" alt="Avatar" class="avatar" />
       </div>
 
       <div class="container">
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Username"
+          name="uname"
+          required
+        />
 
         <label for="psw"><b>Password</b></label>
         <input
           type="password"
           placeholder="Enter Password"
           name="psw"
+          id="pswd"
           required
         />
 
-        <button type="submit">Login</button>
+        <button onclick="print()" type="submit">Login</button>
         <label>
           <input type="checkbox" checked="checked" name="remember" /> Remember
           me
