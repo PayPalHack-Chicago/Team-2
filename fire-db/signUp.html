@@ -6,7 +6,7 @@
   
     <!-- <script defer src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script> -->
 
-    <script src="script.js"></script>
+    
   </head>
   <body>
     <form style="border:1px solid #ccc">
@@ -115,19 +115,29 @@
 
         <div class="clearfix">
           <button type="button" class="cancelbtn">Cancel</button>
-          <button onclick="authenticate()" type="submit" class="signupbtn">Sign Up</button>
+          <button id="sign" type="submit" class="signupbtn">Sign Up</button>
         </div>
       </div>
     </form>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script> -->
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/7.2.0/firebase-app.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script> -->
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-firestore.js"></script> -->
+  
+  <!-- <script src="/__/firebase/init.js"></script> -->
+  <script src="script.js"></script>
   </body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.2.0/firebase-app.js"></script>
+<!-- <script src="/__/firebase/7.2.0/firebase-app.js"></script> -->
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.2.0/firebase-analytics.js"></script>
-<script src="/__/firebase/7.2.0/firebase-auth.js"></script>
-<script src="/__/firebase/7.2.0/firebase-database.js"></script>
+
 <!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+
 </html>

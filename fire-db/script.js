@@ -7,13 +7,14 @@ const config = {
     storageBucket: "bucket.appspot.com"
 };
 firebase.initializeApp(config);
-function authenticate(){
+
+document.getElementById("sign").onclick= function (){
     const email=document.getElementById("email").value;
     const password=document.getElementById("pswd").value;
     const auth = firebase.auth();
-    const promise = auth.createUserWithEmailAndPassword(email,pass);
+    const promise = auth.createUserWithEmailAndPassword(email,password);
     promise.catch(e=> console.log(e.message));
     
-};
+}
 
 }());
