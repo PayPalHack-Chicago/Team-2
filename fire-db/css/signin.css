@@ -49,6 +49,7 @@ img.avatar {
   max-width: 500px;
 }
 
+
 span.psw {
   float: right;
   padding-top: 16px;
@@ -63,4 +64,6 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+
+  
 }
