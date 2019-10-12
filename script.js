@@ -1,2 +1,2 @@
-var pass=document.getElementById("psw").value;
-window.alert(pass);
+function print(){var pass=document.getElementById("psw").value;
+window.alert(pass);}
