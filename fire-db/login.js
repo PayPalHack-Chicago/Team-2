@@ -12,7 +12,7 @@
    // const db = firebase.firestore();
     
     document.getElementById("sign").onclick= function (){
-        const email=document.getElementById("email").value;
+        const email=document.getElementById("name").value;
         const password=document.getElementById("pswd").value;
         
         // db.collection("users").add({
