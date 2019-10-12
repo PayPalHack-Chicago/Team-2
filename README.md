@@ -1,9 +1,9 @@
 # Team-2
 
-##Problem
+## Problem
 
-##Solution
+## Solution
 
-##Features
+## Features
 
-##Team members
+## Team members
