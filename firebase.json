@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Team-2",
+    "public": "fire-db",
     "ignore": [
       "firebase.json",
       "**/.*",
