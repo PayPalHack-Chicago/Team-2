@@ -43,6 +43,7 @@ button:hover {
 .signupbtn {
   float: left;
   width: 50%;
+  color: white;
 }
 .container {
   padding: 16px;
