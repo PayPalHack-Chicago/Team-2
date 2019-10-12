@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 40px auto;
+  max-width: 980px;
+  color: #ccc;
+  font-family: "Lato", serif;
+  background-color: #000;
+
+  /*fix skinny fonts on ios*/
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#content {
+  position: absolute;
+  max-width: 980px;
+  padding: 40px 20px;
+}
+button {
+  background-color: #000;
+  color: beige;
+  font-family: inherit;
+  text-align: center;
+  font-size: 70px;
+  justify-content: center;
+}
