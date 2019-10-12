@@ -9,24 +9,6 @@
       <div id="widget-element">
 </div>
 
-<script src="https://api.sandbox.hyperwallet.com/rest/widgets/transfer-methods/usr-b9524fe2-aaec-4a84-83af-29a933eb5bef/en.min.js"></script>
-
-<script type="text/javascript">
-   var widget = HWWidgets.transferMethods.configure({
-      "template": "bootstrap3",
-      "el": document.getElementById("widget-element"),
-      "skipProfileFields": true,
-      "transferMethodConfiguration": {
-         "profileType": "INDIVIDUAL"
-      },
-      "onComplete": function (data) {
-         // Use AJAX to call local server-side code
-         // that authenticates with API and
-         // creates Transfer Method from data.token
-      }
-   });
-   widget.create();
-</script>
 
       <div class="container">
         <label for="uname"><b>Invite code</b></label>
