@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Payment</title>
+  </head>
+
+  <body>
+    <
+    <div id="widget-element"></div>
+
+    <script src="https://api.sandbox.hyperwallet.com/rest/widgets/transfer-methods/usr-94660c34-4a84-474e-b93e-67d86759fac6/en.min.js"></script>
+
+    <script type="text/javascript">
+      var widget = HWWidgets.transferMethods.configure({
+        template: "bootstrap3",
+        el: document.getElementById("widget-element"),
+        skipProfileFields: true,
+        transferMethodConfiguration: {
+          profileType: "INDIVIDUAL"
+        },
+        onComplete: function(data) {
+          // Use AJAX to call local server-side code
+          // that authenticates with API and
+          // creates Transfer Method from data.token
+        }
+      });
+      widget.create();
+    </script>
+  </body>
+</html>
