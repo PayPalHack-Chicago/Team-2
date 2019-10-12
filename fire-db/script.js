@@ -1,4 +1,5 @@
 (function(){
+    var flag=0;
 
 const config = {
     apiKey: "AIzaSyAE2oIm99Yz0lTHVidmQSRQKS9DE884j3E",
@@ -40,7 +41,13 @@ document.getElementById("sign").onclick= function (){
     const auth = firebase.auth();
     const promise = auth.createUserWithEmailAndPassword(email,password);
     promise.catch(e=> console.log(e.message));
-    location.replace("loginpage.html");
+    setTimeout(function(){
+        location.replace("loginpage.html")
+    }, 2000)
+  
 }
+
+  
+
 
 }());
