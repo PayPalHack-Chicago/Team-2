@@ -1,0 +1,136 @@
+[debug] [2019-10-12T11:26:35.117Z] ----------------------------------------------------------------------
+[debug] [2019-10-12T11:26:35.119Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bright Lesi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-10-12T11:26:35.119Z] CLI Version:   7.5.0
+[debug] [2019-10-12T11:26:35.119Z] Platform:      win32
+[debug] [2019-10-12T11:26:35.119Z] Node Version:  v10.16.3
+[debug] [2019-10-12T11:26:35.120Z] Time:          Sat Oct 12 2019 05:26:35 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-10-12T11:26:35.120Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-12T11:26:35.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-12T11:26:35.126Z] > authorizing via signed-in user
+[debug] [2019-10-12T11:26:35.126Z] [iam] checking project hackathon-ajo-7b2f8 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-12T11:26:35.127Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackathon-ajo-7b2f8:testIamPermissions  
+
+[debug] [2019-10-12T11:26:35.544Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:26:35.550Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hackathon-ajo-7b2f8  
+ 
+[debug] [2019-10-12T11:26:35.923Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackathon-ajo-7b2f8'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-10-12T11:26:35.938Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions  
+
+[debug] [2019-10-12T11:26:36.579Z] <<< HTTP RESPONSE 200
+[info] i  hosting[hackathon-ajo-7b2f8]: beginning deploy...
+[info] i  hosting[hackathon-ajo-7b2f8]: found 13 files in fire-db
+[debug] [2019-10-12T11:26:36.618Z] [hosting] hash cache [ZmlyZS1kYg] load error: lines is not defined
+[debug] [2019-10-12T11:26:36.826Z] [hosting] hash cache [ZmlyZS1kYg] stored for 13 files
+[debug] [2019-10-12T11:26:36.826Z] [hosting][hash queue][FINAL]
+[debug] [2019-10-12T11:26:36.827Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions/c2f255cc8bed860c:populateFiles  
+ <request body omitted>
+[debug] [2019-10-12T11:26:37.629Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:26:37.642Z] [hosting][populate queue][FINAL]
+[debug] [2019-10-12T11:26:37.643Z] [hosting] uploads queued: 9
+[debug] [2019-10-12T11:27:42.175Z] ----------------------------------------------------------------------
+[debug] [2019-10-12T11:27:42.177Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bright Lesi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-10-12T11:27:42.177Z] CLI Version:   7.5.0
+[debug] [2019-10-12T11:27:42.177Z] Platform:      win32
+[debug] [2019-10-12T11:27:42.177Z] Node Version:  v10.16.3
+[debug] [2019-10-12T11:27:42.178Z] Time:          Sat Oct 12 2019 05:27:42 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-10-12T11:27:42.178Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-12T11:27:42.184Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-12T11:27:42.184Z] > authorizing via signed-in user
+[debug] [2019-10-12T11:27:42.184Z] [iam] checking project hackathon-ajo-7b2f8 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-12T11:27:42.185Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackathon-ajo-7b2f8:testIamPermissions  
+
+[debug] [2019-10-12T11:27:42.565Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:27:42.571Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hackathon-ajo-7b2f8  
+ 
+[debug] [2019-10-12T11:27:43.052Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackathon-ajo-7b2f8'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-10-12T11:27:43.082Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions  
+
+[debug] [2019-10-12T11:27:44.061Z] <<< HTTP RESPONSE 200
+[info] i  hosting[hackathon-ajo-7b2f8]: beginning deploy...
+[info] i  hosting[hackathon-ajo-7b2f8]: found 13 files in fire-db
+[debug] [2019-10-12T11:27:44.097Z] [hosting] hash cache [ZmlyZS1kYg] load error: lines is not defined
+[debug] [2019-10-12T11:27:44.313Z] [hosting] hash cache [ZmlyZS1kYg] stored for 13 files
+[debug] [2019-10-12T11:27:44.313Z] [hosting][hash queue][FINAL]
+[debug] [2019-10-12T11:27:44.314Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions/2f32df326e2f660d:populateFiles  
+ <request body omitted>
+[debug] [2019-10-12T11:27:45.221Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:27:45.226Z] [hosting][populate queue][FINAL]
+[debug] [2019-10-12T11:27:45.226Z] [hosting] uploads queued: 1
+[debug] [2019-10-12T11:29:05.609Z] ----------------------------------------------------------------------
+[debug] [2019-10-12T11:29:05.611Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bright Lesi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-10-12T11:29:05.611Z] CLI Version:   7.5.0
+[debug] [2019-10-12T11:29:05.612Z] Platform:      win32
+[debug] [2019-10-12T11:29:05.612Z] Node Version:  v10.16.3
+[debug] [2019-10-12T11:29:05.612Z] Time:          Sat Oct 12 2019 05:29:05 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-10-12T11:29:05.612Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-12T11:29:05.618Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-12T11:29:05.618Z] > authorizing via signed-in user
+[debug] [2019-10-12T11:29:05.619Z] [iam] checking project hackathon-ajo-7b2f8 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-12T11:29:05.620Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackathon-ajo-7b2f8:testIamPermissions  
+
+[debug] [2019-10-12T11:29:05.962Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:29:05.965Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hackathon-ajo-7b2f8  
+ 
+[debug] [2019-10-12T11:29:06.334Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackathon-ajo-7b2f8'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-10-12T11:29:06.367Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions  
+
+[debug] [2019-10-12T11:29:06.995Z] <<< HTTP RESPONSE 200
+[info] i  hosting[hackathon-ajo-7b2f8]: beginning deploy...
+[info] i  hosting[hackathon-ajo-7b2f8]: found 13 files in fire-db
+[debug] [2019-10-12T11:29:07.016Z] [hosting] hash cache [ZmlyZS1kYg] load error: lines is not defined
+[debug] [2019-10-12T11:29:07.190Z] [hosting] hash cache [ZmlyZS1kYg] stored for 13 files
+[debug] [2019-10-12T11:29:07.190Z] [hosting][hash queue][FINAL]
+[debug] [2019-10-12T11:29:07.190Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions/67d9e75e94deafbf:populateFiles  
+ <request body omitted>
+[debug] [2019-10-12T11:29:07.870Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:29:07.875Z] [hosting][populate queue][FINAL]
+[debug] [2019-10-12T11:29:07.875Z] [hosting] uploads queued: 2
+[debug] [2019-10-12T11:29:35.248Z] ----------------------------------------------------------------------
+[debug] [2019-10-12T11:29:35.250Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bright Lesi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-10-12T11:29:35.250Z] CLI Version:   7.5.0
+[debug] [2019-10-12T11:29:35.250Z] Platform:      win32
+[debug] [2019-10-12T11:29:35.250Z] Node Version:  v10.16.3
+[debug] [2019-10-12T11:29:35.251Z] Time:          Sat Oct 12 2019 05:29:35 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-10-12T11:29:35.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-12T11:29:35.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-12T11:29:35.257Z] > authorizing via signed-in user
+[debug] [2019-10-12T11:29:35.257Z] [iam] checking project hackathon-ajo-7b2f8 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-10-12T11:29:35.258Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackathon-ajo-7b2f8:testIamPermissions  
+
+[debug] [2019-10-12T11:29:35.569Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:29:35.575Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hackathon-ajo-7b2f8  
+ 
+[debug] [2019-10-12T11:29:35.906Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'hackathon-ajo-7b2f8'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-10-12T11:29:35.929Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions  
+
+[debug] [2019-10-12T11:29:36.554Z] <<< HTTP RESPONSE 200
+[info] i  hosting[hackathon-ajo-7b2f8]: beginning deploy...
+[info] i  hosting[hackathon-ajo-7b2f8]: found 13 files in fire-db
+[debug] [2019-10-12T11:29:36.594Z] [hosting] hash cache [ZmlyZS1kYg] load error: lines is not defined
+[debug] [2019-10-12T11:29:36.764Z] [hosting] hash cache [ZmlyZS1kYg] stored for 13 files
+[debug] [2019-10-12T11:29:36.764Z] [hosting][hash queue][FINAL]
+[debug] [2019-10-12T11:29:36.764Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/hackathon-ajo-7b2f8/versions/217bd9f441645f24:populateFiles  
+ <request body omitted>
+[debug] [2019-10-12T11:29:37.365Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-12T11:29:37.370Z] [hosting][populate queue][FINAL]
+[debug] [2019-10-12T11:29:37.370Z] [hosting] uploads queued: 1
