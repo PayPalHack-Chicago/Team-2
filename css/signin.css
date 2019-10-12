@@ -46,6 +46,7 @@ img.avatar {
   padding: 16px;
   display: block;
   margin: 0 auto;
+  max-width: 500px;
 }
 
 span.psw {
